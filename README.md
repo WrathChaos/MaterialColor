@@ -6,11 +6,15 @@
 [![CI Status](http://img.shields.io/travis/wrathchaos/MaterialColor.svg?style=flat)](https://travis-ci.org/wrathchaos/MaterialColor)
 [![GitHub issues](https://img.shields.io/github/issues/WrathChaos/MaterialColor.svg?style=flat-square)](https://github.com/WrathChaos/MaterialColor/issues) 
 [![Documentation](https://img.shields.io/cocoapods/metrics/doc-percent/UITextField-Navigation.svg?style=flat-square)](http://cocoadocs.org/docsets/UITextField-Navigation)
+
+
 ![](https://img.shields.io/badge/Swift-3.0-blue.svg?style=flat)
 [![Version](https://img.shields.io/cocoapods/v/MaterialColor.svg?style=flat)](http://cocoapods.org/pods/MaterialColor)  
 [![License](https://img.shields.io/cocoapods/l/MaterialColor.svg?style=flat)](http://cocoapods.org/pods/MaterialColor)  
-[![Platform](https://img.shields.io/cocoapods/p/MaterialColor.svg?style=flat)](http://cocoapods.org/pods/MaterialColor)  
-[![CocoaPods](https://img.shields.io/badge/CocoaPods-compatible-4BC51D.svg?style=flat-square)](https://cocoapods.org/pods/MaterialColor)  
+[![Platform](https://img.shields.io/cocoapods/p/MaterialColor.svg?style=flat)](http://cocoapods.org/pods/MaterialColor) 
+
+
+[![CocoaPods](https://img.shields.io/badge/CocoaPods-compatible-4BC51D.svg?style=flat-square)](https://cocoapods.org/pods/MaterialColor)
 [![CocoaPods downloads](https://img.shields.io/cocoapods/dt/MaterialColor.svg?style=flat-square)](https://cocoapods.org/pods/MaterialColor)  
 
 ## Example

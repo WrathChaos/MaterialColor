@@ -1,6 +1,6 @@
 # MaterialColor
 
-![Screenshot 0](https://github.com/WrathChaos/MaterialColor/Screenshots/MaterialColor.png?raw=true)
+![Screenshot 0](https://github.com/WrathChaos/MaterialColor/blob/master/Screenshots/MaterialColors.png?raw=true)
 
 [![CI Status](http://img.shields.io/travis/wrathchaos/MaterialColor.svg?style=flat)](https://travis-ci.org/wrathchaos/MaterialColor)
 [![GitHub issues](https://img.shields.io/github/issues/WrathChaos/MaterialColor.svg?style=flat-square)](https://github.com/WrathChaos/MaterialColor/issues) 

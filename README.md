@@ -94,3 +94,4 @@ FreakyCoder, kurayogun@gmail.com
 
 ## License
 
+-MaterialColor is available under the MIT license. See the LICENSE file for more info.

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MaterialColor_Example' do
+  pod 'MaterialColor', :path => '../'
+
+  target 'MaterialColor_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

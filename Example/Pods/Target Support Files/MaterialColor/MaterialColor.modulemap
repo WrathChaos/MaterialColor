@@ -1,0 +1,6 @@
+framework module MaterialColor {
+  umbrella header "MaterialColor-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -8,9 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		3A6B16ADBB732070F99BF38F /* Pods_MaterialColor_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE66DD5EFE859C2500F6154D /* Pods_MaterialColor_Example.framework */; };
+		444D668B1F28CFA100A1179F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 444D66871F28CFA100A1179F /* Main.storyboard */; };
+		444D668C1F28CFA100A1179F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444D66881F28CFA100A1179F /* ViewController.swift */; };
+		444D668D1F28CFA100A1179F /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444D66891F28CFA100A1179F /* ColorModel.swift */; };
+		444D668E1F28CFA100A1179F /* ColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444D668A1F28CFA100A1179F /* ColorCell.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
@@ -29,13 +31,15 @@
 
 /* Begin PBXFileReference section */
 		2EF78E72CC988972E6DAFDB6 /* Pods-MaterialColor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaterialColor_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MaterialColor_Tests/Pods-MaterialColor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2F95A0115409530A51A86D31 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2F95A0115409530A51A86D31 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		344F335DE8CB6084A47E800B /* Pods_MaterialColor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaterialColor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		444D66861F28CFA100A1179F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		444D66881F28CFA100A1179F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../MaterialColors/Example/MaterialColors/ViewController.swift; sourceTree = "<group>"; };
+		444D66891F28CFA100A1179F /* ColorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorModel.swift; path = ../../../MaterialColors/Example/MaterialColors/ColorModel.swift; sourceTree = "<group>"; };
+		444D668A1F28CFA100A1179F /* ColorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorCell.swift; path = ../../../MaterialColors/Example/MaterialColors/ColorCell.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MaterialColor_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaterialColor_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* MaterialColor_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaterialColor_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,9 +48,9 @@
 		60BA87185B03E2C43EDFEAF5 /* Pods-MaterialColor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaterialColor_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MaterialColor_Tests/Pods-MaterialColor_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		89FE633CE671F23D31742801 /* Pods-MaterialColor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaterialColor_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MaterialColor_Example/Pods-MaterialColor_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9B654CD60ED13327E1890B7F /* Pods-MaterialColor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaterialColor_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MaterialColor_Example/Pods-MaterialColor_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B553DC98FA76383E035E224F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B553DC98FA76383E035E224F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CE66DD5EFE859C2500F6154D /* Pods_MaterialColor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaterialColor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EECA2751F9B8617DD9C5AD7C /* MaterialColor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MaterialColor.podspec; path = ../MaterialColor.podspec; sourceTree = "<group>"; };
+		EECA2751F9B8617DD9C5AD7C /* MaterialColor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MaterialColor.podspec; path = ../MaterialColor.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,38 @@
 				344F335DE8CB6084A47E800B /* Pods_MaterialColor_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		444D668F1F28CFA500A1179F /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				444D66871F28CFA100A1179F /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		444D66901F28CFAB00A1179F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				444D66881F28CFA100A1179F /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		444D66911F28CFB200A1179F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				444D668A1F28CFA100A1179F /* ColorCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		444D66921F28CFB900A1179F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				444D66891F28CFA100A1179F /* ColorModel.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		52AF606E33E51E9787B17821 /* Pods */ = {
@@ -113,9 +149,11 @@
 		607FACD21AFB9204008FA782 /* Example for MaterialColor */ = {
 			isa = PBXGroup;
 			children = (
+				444D66921F28CFB900A1179F /* Model */,
+				444D66911F28CFB200A1179F /* View */,
+				444D66901F28CFAB00A1179F /* Controller */,
+				444D668F1F28CFA500A1179F /* Storyboard */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
@@ -248,7 +286,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				444D668B1F28CFA100A1179F /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -361,8 +399,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				444D668C1F28CFA100A1179F /* ViewController.swift in Sources */,
+				444D668E1F28CFA100A1179F /* ColorCell.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				444D668D1F28CFA100A1179F /* ColorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,12 +425,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
+		444D66871F28CFA100A1179F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
+				444D66861F28CFA100A1179F /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../../../MaterialColors/Example/MaterialColors;
 			sourceTree = "<group>";
 		};
 		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {

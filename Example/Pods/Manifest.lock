@@ -1,0 +1,16 @@
+PODS:
+  - MaterialColor (0.1.0)
+
+DEPENDENCIES:
+  - MaterialColor (from `../`)
+
+EXTERNAL SOURCES:
+  MaterialColor:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MaterialColor: 345ef873ac3d93ca4e7019d5aa041b1973432285
+
+PODFILE CHECKSUM: 2384b802964d2ecd9160ac13c278f6e1ad9f37a9
+
+COCOAPODS: 1.2.1

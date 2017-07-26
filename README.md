@@ -46,6 +46,14 @@ alt="Pod Version">
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+<p align="center">
+<img align="left" width="350" height="600" src="https://github.com/WrathChaos/MaterialColor/blob/master/Screenshots/MaterialColor_Example2.jpeg">
+
+<img align="right" width="350" height="600" src="https://github.com/WrathChaos/MaterialColor/blob/master/Screenshots/MaterialColor_Example.jpeg">
+</p>
+
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+
 ## Requirements
 - iOS 8.0+
 - Xcode 8.1, 8.2, 8.3
@@ -86,4 +94,3 @@ FreakyCoder, kurayogun@gmail.com
 
 ## License
 
-MaterialColor is available under the MIT license. See the LICENSE file for more info.

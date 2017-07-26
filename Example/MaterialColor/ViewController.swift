@@ -1,13 +1,13 @@
 //
 //  ViewController.swift
-//  MaterialColors
+//  MaterialColor
 //
 //  Created by FreakyCoder on 07/25/2017.
 //  Copyright (c) 2017 FreakyCoder. All rights reserved.
 //
 
 import UIKit
-import MaterialColors
+import MaterialColor
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
@@ -27,18 +27,18 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func fillColorList(){
-        colorList.append(ColorModel(label: "Cyan Base", color: MaterialColors.cyan.base))
-        colorList.append(ColorModel(label: "Teal Accent 4", color: MaterialColors.teal.accent4))
-        colorList.append(ColorModel(label: "Amber Dark 2", color: MaterialColors.amber.dark2))
-        colorList.append(ColorModel(label: "Blue Grey Base", color: MaterialColors.blueGrey.base))
-        colorList.append(ColorModel(label: "Deep Orange Accent 3", color: MaterialColors.deepOrange.accent3))
-        colorList.append(ColorModel(label: "Deep Purple Dark 3", color: MaterialColors.deepPurple.dark3))
-        colorList.append(ColorModel(label: "Brown Light 3", color: MaterialColors.brown.light3))
-        colorList.append(ColorModel(label: "Indigo Light 1", color: MaterialColors.indigo.light1))
-        colorList.append(ColorModel(label: "Light Blue Dark 1", color: MaterialColors.lightBlue.dark1))
-        colorList.append(ColorModel(label: "Yellow Dark 2", color: MaterialColors.yellow.dark2))
-        colorList.append(ColorModel(label: "Pink Accent 3", color: MaterialColors.pink.accent3))
-        colorList.append(ColorModel(label: "Red Base", color: MaterialColors.red.base))
+        colorList.append(ColorModel(label: "Cyan Base", color: MaterialColor.cyan.base))
+        colorList.append(ColorModel(label: "Teal Accent 4", color: MaterialColor.teal.accent4))
+        colorList.append(ColorModel(label: "Amber Dark 2", color: MaterialColor.amber.dark2))
+        colorList.append(ColorModel(label: "Blue Grey Base", color: MaterialColor.blueGrey.base))
+        colorList.append(ColorModel(label: "Deep Orange Accent 3", color: MaterialColor.deepOrange.accent3))
+        colorList.append(ColorModel(label: "Deep Purple Dark 3", color: MaterialColor.deepPurple.dark3))
+        colorList.append(ColorModel(label: "Brown Light 3", color: MaterialColor.brown.light3))
+        colorList.append(ColorModel(label: "Indigo Light 1", color: MaterialColor.indigo.light1))
+        colorList.append(ColorModel(label: "Light Blue Dark 1", color: MaterialColor.lightBlue.dark1))
+        colorList.append(ColorModel(label: "Yellow Dark 2", color: MaterialColor.yellow.dark2))
+        colorList.append(ColorModel(label: "Pink Accent 3", color: MaterialColor.pink.accent3))
+        colorList.append(ColorModel(label: "Red Base", color: MaterialColor.red.base))
     }
     
     // UITableView Delegates

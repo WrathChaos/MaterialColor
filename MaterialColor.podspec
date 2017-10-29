@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MaterialColor'
-  s.version          = '1.0.2'
+  s.version          = '1.1.0'
   s.summary          = 'Material Color Palette with Swift 3 Compatibility'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-A perfect library to use Material Color Palette. Colors are the most important UI kit for every application. MaterialColors is the best and easiest way of color pallette.
+A perfect library to use Material Color Palette. Colors are the most important UI kit for every application. MaterialColors is the best and easiest way of color pallette. Swift 4 compatibility.
                        DESC
 
   s.homepage         = 'https://github.com/wrathchaos/MaterialColor'

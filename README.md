@@ -56,9 +56,10 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 - iOS 8.0+
-- Xcode 8.1, 8.2, 8.3
+- XCode 8.1, 8.2, 8.3
+- **XCode 9.0+**
 - Swift 3.0, 3.1, 3.2
-
+- **Swift 4.0+**
 ## Installation
 
 MaterialColor is available through [CocoaPods](http://cocoapods.org). To install
@@ -84,8 +85,8 @@ let deepOrange: UIColor = MaterialColor.deepOrange.dark1
 - [x] Complete a working Example
 - [ ] Add Carthage installation option
 - [ ] Add Swift Package Manager installation option
-- [ ] XCode 9 compatibility and tests
-- [ ] Swift 4 compatibility and tests
+- [x] <del>XCode 9 compatibility and tests</del>
+- [x] <del>Swift 4 compatibility and tests</del>
 - [ ] [ Add Quick Testing ](https://github.com/Quick/Quick)
 
 ## Author

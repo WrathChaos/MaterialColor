@@ -1,5 +1,5 @@
 PODS:
-  - MaterialColor (1.0.1)
+  - MaterialColor (1.0.2)
 
 DEPENDENCIES:
   - MaterialColor (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  MaterialColor: 640653b2975003281d0d1fe612da4c2c9565ba61
+  MaterialColor: 3f2deae9ec9a4fe35700c218cbaed932483c33e3
 
 PODFILE CHECKSUM: 2384b802964d2ecd9160ac13c278f6e1ad9f37a9
 

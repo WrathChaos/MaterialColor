@@ -8,8 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MaterialColor'
-  s.version          = '1.1.0'
-  s.summary          = 'Material Color Palette with Swift 3 Compatibility'
+  s.version          = '1.1.1'
+  s.summary          = 'Material Color Palette with Swift 5, 4.2, 4 Compatibility'
+  swift_versions = '4.0', '4.2', '5.0'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +19,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-A perfect library to use Material Color Palette. Colors are the most important UI kit for every application. MaterialColors is the best and easiest way of color pallette. Swift 4 compatibility.
+A perfect library to use Material Color Palette. Colors are the most important UI kit for every application. MaterialColors is the best and easiest way of color pallette. Swift 5, 4.2, 4 compatibility.
                        DESC
 
   s.homepage         = 'https://github.com/wrathchaos/MaterialColor'
@@ -28,7 +29,7 @@ A perfect library to use Material Color Palette. Colors are the most important U
   s.source           = { :git => 'https://github.com/wrathchaos/MaterialColor.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/freakycodercom'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'MaterialColor/Classes/**/*'
   
@@ -38,5 +39,4 @@ A perfect library to use Material Color Palette. Colors are the most important U
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

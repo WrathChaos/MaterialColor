@@ -32,6 +32,12 @@ alt="Build">
 alt="Issues">
 </a>
 <a href="https://github.com/WrathChaos/MaterialColor">
+<img src="https://img.shields.io/badge/Swift-5.0-blue.svg"
+alt="Swift 5.0">
+<img src="https://img.shields.io/badge/Swift-4.2-pink.svg"
+alt="Swift 4.2">
+<img src="https://img.shields.io/badge/Swift-4.0-orange.svg"
+alt="Swift 4.0">
 <img src="https://img.shields.io/badge/Swift-3.0-blue.svg"
 alt="Swift 3.0">
 </a>
@@ -60,6 +66,10 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 - **XCode 9.0+**
 - Swift 3.0, 3.1, 3.2
 - **Swift 4.0+**
+- **Swift 4.2**
+- **Swift 5.0+**
+
+
 ## Installation
 
 MaterialColor is available through [CocoaPods](http://cocoapods.org). To install
@@ -83,11 +93,12 @@ let deepOrange: UIColor = MaterialColor.deepOrange.dark1
 ## Future Enhancements
 
 - [x] Complete a working Example
-- [ ] Add Carthage installation option
+- [x] Add Carthage installation option
 - [ ] Add Swift Package Manager installation option
 - [x] <del>XCode 9 compatibility and tests</del>
 - [x] <del>Swift 4 compatibility and tests</del>
-- [ ] [ Add Quick Testing ](https://github.com/Quick/Quick)
+- [x] <del>Swift 4.2 compatibility and tests</del>
+- [x] <del>Swift 5 compatibility and tests</del>
 
 ## Author
 
